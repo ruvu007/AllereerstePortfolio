@@ -1,0 +1,116 @@
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+display: inline-block; padding:5px;
+font-size:20px;
+}
+
+
+body {
+    background-image: url(iPad_Tablet_night.png);
+    background-size: contain;
+}
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+
+  ul li a {
+    text-decoration: none;
+    font-family: quicksand;
+    color: white;
+    display: block;
+    padding: 8px;
+    background-color: #616161;
+    display:inline-block;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  @font-face {
+    font-family: quicksand;
+    src: url(../Images/quicksand.woff);
+  }
+
+  #title {
+    color: white;
+    font-family: quicksand;
+    src: url(/Images/quicksand.woff);
+    font-size: 75px;
+}
+
+#pic {
+    border-radius: 8px;
+    float: right;
+    margin: 6px;
+    margin-bottom: 25px;
+   
+}
+
+#paragraaf {
+    color: white;
+    font-family: quicksand;
+    src: url(/Images/quicksand.woff);
+    font-size: 19px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+}
+
+#tekst {
+  color: white;
+  font-family: quicksand;
+  src: url(/Images/quicksand.woff);
+  font-size: 19px;
+  margin-left:auto; 
+  margin-right:auto; 
+  width: 200px;
+  text-align: center;
+}
+
+#tekst2 {
+  color: white;
+  font-family: quicksand;
+  src: url(/Images/quicksand.woff);
+  font-size: 19px;
+  margin-left:auto; 
+  margin-right:auto; 
+  width: 514px;
+  
+}
+
+.dikkeblok {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 740px;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #616161;
+  -webkit-box-shadow: 9px 7px 1px 0 rgba(0,0,0,0.86) ;
+  box-shadow: 20px 15px 1px 0 rgba(0,0,0,0.86) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+}
